@@ -12,6 +12,10 @@
 ############
 .patterns-docs: &patterns-docs
   - "docs/**/*"
+  - "components/at/include/*"
+  - ".gitlab/ci/build_docs.yml"
+  - ".gitlab/ci/deploy.yml"
+  - ".gitlab/ci/post_deploy.yml"
 
 .patterns-src: &patterns-src
   - "bootloader_components/**/*"
